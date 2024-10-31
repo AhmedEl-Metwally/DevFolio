@@ -1,0 +1,225 @@
+
+header.vh-100
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url(../images/hero-bg.jpg);
+ background-size: cover;
+
+}
+
+
+
+
+.about-me h2
+{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.about-me h2::before
+{
+  content: "";
+  width: 14%;
+  height: 4px;
+  background-color:#0077fd;
+  position: absolute;
+  top: 100%;
+  right: 85%;
+
+}
+
+
+.home-content p::after {
+  content: " |";
+  animation: typing 3s infinite alternate;
+  -webkit-animation: typing 3s infinite alternate;
+}
+@keyframes typing {
+  2.5% {
+    content: " D|";
+  }
+  5% {
+    content: " De|";
+  }
+  7.5% {
+    content: " Dev|";
+  }
+  10% {
+    content: " Deve|";
+  }
+  12.5% {
+    content: " Devel|";
+  }
+  15% {
+    content: " Develo|";
+  }
+  17.5% {
+    content: " Develop|";
+  }
+  20% {
+    content: " Developm|";
+  }
+  22.5% {
+    content: " Developme|";
+  }
+  25% {
+    content: " Developmen|";
+  }
+  27.5% {
+    content: " Development|";
+  }
+  30% {
+    content: " Developmen|";
+  }
+  32.5% {
+    content: " Developme|";
+  }
+  35% {
+    content: " Developm|";
+  }
+  37.5% {
+    content: " Develop|";
+  }
+  40% {
+    content: " Develo|";
+  }
+  42.5% {
+    content: " Devel|";
+  }
+  45% {
+    content: " Deve|";
+  }
+  47.5% {
+    content: " Dev|";
+  }
+  50% {
+    content: " De|";
+  }
+  52.5% {
+    content: " Des|";
+  }
+  55% {
+    content: " Desi|";
+  }
+  57.5% {
+    content: " Desig|";
+  }
+  60% {
+    content: " Design|";
+  }
+  62.5% {
+    content: " Designe|";
+  }
+  65% {
+    content: " Designer|";
+  }
+  67.5% {
+    content: " Designe|";
+  }
+  70% {
+    content: " Design|";
+  }
+  72.5% {
+    content: " Desig|";
+  }
+  75% {
+    content: " Desi|";
+  }
+  77.5% {
+    content: " Des|";
+  }
+  80% {
+    content: " De|";
+  }
+  82.5% {
+    content: " Dev|";
+  }
+  85% {
+    content: " Deve|";
+  }
+  87.5% {
+    content: " Devel|";
+  }
+  90% {
+    content: " Develo|";
+  }
+  92.5% {
+    content: " Develop|";
+  }
+  95% {
+    content: " Develope|";
+  }
+  97.5% {
+    content: " Developer|";
+  }
+  100% {
+    content: " Developer|";
+  }
+}
+
+
+.services-inf p
+{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.services-inf p::after
+{
+  content: "";
+  width:4%;
+  height: 4px;
+  background-color:#0077fd;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+}
+
+
+
+
+
+
+
+.services-icon
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255,2555, 255);
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0 0 0 10px #0077fd;
+    transition: transform 1sc;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.overlay
+{
+
+ height: 100%;
+ background-image: url(../images/post-3.jpg);
+ background-attachment: fixed;
+}
+
+
+
+.carousel-item
+ {
+  background-image: linear-gradient(rgba(76, 157, 242, 0.8), rgba(76, 157, 242, 0.8)), url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  overflow: hidden;
+}
+
+
+
+
+
+
