@@ -1,0 +1,98 @@
+
+header.vh-100
+{
+  background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url(../images/hero-bg.jpg);
+ background-size: cover;
+
+}
+
+
+
+
+.about-me h2
+{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.about-me h2::before
+{
+  content: "";
+  width: 14%;
+  height: 4px;
+  background-color:#0077fd;
+  position: absolute;
+  top: 100%;
+  right: 85%;
+
+}
+
+
+
+
+.services-inf p
+{
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.services-inf p::after
+{
+  content: "";
+  width:4%;
+  height: 4px;
+  background-color:#0077fd;
+  position: absolute;
+  top: 100%;
+  right: 50%;
+}
+
+
+
+
+
+
+
+.services-icon
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255,2555, 255);
+    border-radius: 50%;
+    color: black;
+    box-shadow: 0 0 0 10px #0077fd;
+    transition: transform 1sc;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.overlay
+{
+
+ height: 100%;
+ background-image: url(../images/post-3.jpg);
+ background-attachment: fixed;
+}
+
+
+
+.carousel-item
+ {
+  background-image: linear-gradient(rgba(76, 157, 242, 0.8), rgba(76, 157, 242, 0.8)), url(../images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 4px;
+  overflow: hidden;
+}
+
+
+
+
+
+
